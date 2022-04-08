@@ -1,0 +1,53 @@
+{
+  "mailconfig": [
+    {
+      "mailAddress": "mailaddress@gmail.com",
+      "password": "*******",
+      "host": "imap.gmail.com",
+      "port": 993,
+      "tls": true,
+      "tlsOptions": { "rejectUnauthorized": false },
+      "mailbox": "INBOX",
+      "searchFilter": ["UNSEEN", "FLAGGED"],
+      "attachments": true,
+      "extensions": [],
+      "subjectName": [],
+      "donwloadPath": "D:/projectwork/mailservice/emailattachment/files"
+    },
+    {
+      "mailAddress": "mailaddress@gmail.com",
+      "password": "*******",
+      "host": "imap.gmail.com",
+      "port": 993,
+      "tls": true,
+      "tlsOptions": { "rejectUnauthorized": false },
+      "mailbox": "INBOX",
+      "searchFilter": ["UNSEEN", "FLAGGED"],
+      "attachments": true,
+      "extensions": [],
+      "subjectName": [],
+      "donwloadPath": "D:/projectwork/mailservice/emailattachment/files"
+    },
+    {
+      "mailAddress": "mailaddress@outlook.com",
+      "password": "*******",
+      "host": "imap-mail.outlook.com",
+      "port": 993,
+      "tls": true,
+      "tlsOptions": { "rejectUnauthorized": false },
+      "mailbox": "INBOX",
+      "searchFilter": ["UNSEEN", "FLAGGED"],
+      "attachments": true,
+      "extensions": [".pdf"],
+      "subjectName": [],
+      "donwloadPath": "D:/projectwork/mailservice/emailattachment/files"
+    }
+  ],
+  "allowedEmails": [
+    "mailaddress@outlook.com",
+    "mailaddress@gmail.com",
+    "mailaddress@outlook.com",
+    "mailaddress@gmail.com"
+  ],
+  "defaultPath": "D:/projectwork/mailservice/emailattachment/files"
+}
